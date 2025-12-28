@@ -82,4 +82,23 @@ footer{
     0%{transform:translateY(0);}
     100%{transform:translateY(100vh);}
 }
+.game canvas {
+    background: #111;
+    border: 3px solid crimson;
+    display: block;
+    margin: 20px auto;
+}
+
+.game h2 {
+    color: #ff004c;
+    text-shadow: 0 0 10px crimson;
+    font-size: 1.8em;
+}
+
+.game p {
+    color: #ff77aa;
+    text-shadow: 0 0 5px #ff004c;
+    font-size: 1.1em;
+    text-align: center;
+}
 
